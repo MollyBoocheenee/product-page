@@ -11,8 +11,9 @@ html {
 }
 
 body {
-  margin: 0;
-  /* include your font family and default line-height */
+  margin: 1rem;
+  line-height: normal;
+  font-family: 'Copse', serif;
 }
 
 img {
@@ -37,7 +38,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #000;
+  color: #fff;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.25rem;
@@ -54,10 +55,26 @@ footer {
 
 .images {
   display: flex;
-  
+
 }
 
-/* Default styling for all screens ends here */
+.other {
+  display: flex;
+}
+
+header nav {
+  background-color: green;
+  margin-bottom: 1rem;
+}
+
+.quote {
+  display: flex;
+}
+
+.learn {
+  padding-right:2rem;
+}
+efault styling for all screens ends here */
 
 /* Add media query for tablet */
 
