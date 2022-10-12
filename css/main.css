@@ -59,7 +59,9 @@ footer {
 }
 
 .other {
-  display: flex;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 header nav {
@@ -69,11 +71,17 @@ header nav {
 
 .quote {
   display: flex;
+  margin: 0;
+}
+
+.quote blockquote {
+  margin: 1rem;
 }
 
 .learn {
   padding-right:2rem;
-}
+
+
 efault styling for all screens ends here */
 
 /* Add media query for tablet */
