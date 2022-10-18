@@ -26,10 +26,8 @@ img {
 }
 
 header {
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5rem;
 }
 
 svg {
@@ -39,13 +37,11 @@ svg {
 
 header nav ul {
   list-style-type: none;
-  display: flex;
-  gap: 1.5rem;
-  align-content: flex-end;
 }
 
 header nav ul li {
   padding: 0 5rem;
+  display: flex;
 }
 
 header nav ul li a {
@@ -70,7 +66,7 @@ footer {
 }
 
 .other {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
