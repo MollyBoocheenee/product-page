@@ -112,12 +112,13 @@ header nav {
     line-height: 2rem;
   }
 
-  #bigcontain {
-    display: grid;
+  #tabbig {
+    display: inline-grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
     gap: 1rem;
-}
+  }
+
+  /* adjusting the tab layout separate from the desktop layout was unsuccessful.*/
 
 }
 
@@ -127,4 +128,5 @@ header nav {
   #bigcontain {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
