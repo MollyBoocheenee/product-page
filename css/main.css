@@ -113,6 +113,12 @@ header nav {
     line-height: 2rem;
   }
 
+#tabbig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+  /* adjusting the tab layout separate from the desktop layout was unsuccessful.*/
 
 }
 
